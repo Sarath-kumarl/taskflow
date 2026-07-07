@@ -28,6 +28,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=YOUR_PROJECT_KEY
-            -Dsonar.organization=Sarath-kumar
+            -Dsonar.projectKey=Sarath-kumarl_taskflow
+            -Dsonar.organization=Sarath-kumarl
             -Dsonar.host.url=https://sonarcloud.io
